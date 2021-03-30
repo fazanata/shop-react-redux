@@ -2,10 +2,10 @@ import './main.css'
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {applyMiddleware, createStore} from 'redux'
+import {createStore, applyMiddleware} from 'redux'
 import {createBrowserHistory} from 'history'
 import thunk from 'redux-thunk'
-import {ConnectedRouter, routerMiddleware} from 'connected-react-router'
+import {routerMiddleware, ConnectedRouter} from 'connected-react-router'
 import {composeWithDevTools} from 'redux-devtools-extension'
 import {Provider} from 'react-redux'
 
